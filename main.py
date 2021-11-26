@@ -13,7 +13,7 @@ from object_detection.builders import model_builder
 import cv2 
 import numpy as np
 from matplotlib import pyplot as plt
-%matplotlib inline
+# %matplotlib inline
 
 CUSTOM_MODEL_NAME = 'my_ssd_mobnet' 
 PRETRAINED_MODEL_NAME = 'ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8'
